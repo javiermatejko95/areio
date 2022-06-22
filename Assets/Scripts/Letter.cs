@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class Letter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    #region EXPOSED_FIELDS
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    #endregion
 }

@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Word : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    #region EXPOSED_FIELDS
+    [SerializeField] private Letters letters = null;
+    #endregion
 
-    // Update is called once per frame
-    void Update()
+    #region PUBLIC_METHODS
+    public void Init()
     {
-        
+
     }
+    #endregion
 }
